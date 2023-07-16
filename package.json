@@ -1,0 +1,24 @@
+{
+    "name": "autocomplete-app",
+    "version": "1.0.0",
+    "description": "Autocomplete app using React and TypeScript",
+    "scripts": {
+        "start": "webpack serve --config webpack.config.js --open",
+        "build": "webpack --config webpack.config.js"
+    },
+    "dependencies": {
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-scripts": "^5.0.1"
+    },
+    "devDependencies": {
+        "@types/react": "^17.0.21",
+        "@types/react-dom": "^17.0.9",
+        "ts-loader": "^9.4.4",
+        "tsconfig-paths-webpack-plugin": "^4.1.0",
+        "typescript": "^4.9.5",
+        "webpack": "^5.88.1",
+        "webpack-cli": "^4.10.0",
+        "webpack-dev-server": "^4.15.1"
+    }
+}
